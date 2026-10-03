@@ -631,8 +631,15 @@ textarea {
   .about-grid,
   .contact-layout,
   .services-grid,
-  .gallery-grid {
+  .gallery-grid,
+  .detail-gallery,
+  .pricing-grid,
+  .testimonials-grid {
     grid-template-columns: 1fr;
+  }
+
+  .detail-gallery img {
+    height: 240px;
   }
 
   .topbar {
