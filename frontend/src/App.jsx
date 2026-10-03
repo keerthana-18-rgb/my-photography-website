@@ -4,14 +4,128 @@ const services = [
   {
     title: 'Wedding Stories',
     text: 'Cinematic coverage of vows, rituals, emotions, and the moments you never want to forget.',
+    slug: 'wedding-stories',
+    heroImage:
+      'https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80',
+    ],
+    summary: 'We document sacred rituals, joyful ceremonies, and intimate family moments with a cinematic editorial touch that feels deeply personal and timeless.',
+    pricing: [
+      { name: 'Classic Story', amount: '₹35,000', detail: 'Ideal for intimate ceremonies with essential coverage and curated highlights.' },
+      { name: 'Signature Celebration', amount: '₹55,000', detail: 'Full-day wedding coverage with family portraits and a polished final gallery.' },
+      { name: 'Heritage Collection', amount: '₹82,000', detail: 'Luxury-day storytelling, multiple setups, and an elevated cinematic album experience.' },
+    ],
+    process: [
+      'Pre-wedding planning call to understand your venue, rituals, and priorities.',
+      'Coverage of the haldi, mehendi, wedding rituals, and emotional family moments.',
+      'Candid storytelling with a relaxed direction to ensure natural expressions and graceful portraits.',
+      'Fine-art final delivery with a curated album and print-ready gallery.',
+    ],
+    testimonials: [
+      {
+        name: 'Aarav & Meera',
+        event: 'Wedding Story',
+        quote: 'Every emotion felt beautifully documented. We still relive our ceremony through the images and the storytelling felt incredibly personal.',
+      },
+      {
+        name: 'Nisha Kapoor',
+        event: 'Family Celebration',
+        quote: 'The team blended into our wedding day so naturally that we forgot they were there. Each frame felt candid, warm, and deeply meaningful.',
+      },
+    ],
   },
   {
     title: 'Portrait Sessions',
     text: 'Artful portraits with natural light, fashion direction, and warm, editorial styling.',
+    slug: 'portrait-sessions',
+    heroImage:
+      'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80',
+    ],
+    summary: 'Our portrait sessions blend beauty, expression, and cultural elegance to create refined images that celebrate individuality with confidence and warmth.',
+    pricing: [
+      { name: 'Minimal Glow', amount: '₹18,000', detail: 'One location, classic styling, and a curated portrait set.' },
+      { name: 'Studio Luxe', amount: '₹28,000', detail: 'Fashion-forward styling, multiple looks, and premium retouching.' },
+      { name: 'Signature Editorial', amount: '₹42,000', detail: 'Luxury portrait direction with multiple outfits, location storytelling, and final gallery delivery.' },
+    ],
+    process: [
+      'Creative consultation to decide styling, colors, mood, and location.',
+      'Direction for pose flow, natural movement, and expressive storytelling.',
+      'Use of natural light and handcrafted composition for a premium editorial feel.',
+      'Delivery of polished high-resolution portraits for prints, social media, and keepsakes.',
+    ],
+    testimonials: [
+      {
+        name: 'Riya Sharma',
+        event: 'Portrait Session',
+        quote: 'The entire session felt like a luxury editorial shoot. The direction was gentle, the final portraits were stunning, and every pose looked effortless.',
+      },
+      {
+        name: 'Aditya Nair',
+        event: 'Personal Branding',
+        quote: 'We wanted elegant portraits with confidence and character. The results felt refined, modern, and deeply aligned with my brand.',
+      },
+    ],
   },
   {
     title: 'Events & Celebrations',
     text: 'From birthdays to corporate events, we capture the spirit and atmosphere of every gathering.',
+    slug: 'events-celebrations',
+    heroImage:
+      'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1600&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1532635241-17e820acc59f?auto=format&fit=crop&w=900&q=80',
+    ],
+    summary: 'From festive birthdays to meaningful cultural gatherings, we capture the atmosphere, energy, and emotional details that make every celebration unforgettable.',
+    pricing: [
+      { name: 'Celebration Cover', amount: '₹22,000', detail: 'A relaxed event coverage package with a curated gallery of key moments.' },
+      { name: 'Grand Event Story', amount: '₹38,000', detail: 'Expanded coverage for longer events, guest storytelling, and selection planning.' },
+      { name: 'Luxury Event Experience', amount: '₹58,000', detail: 'Complete event narrative with premium detail coverage and branded highlight presentation.' },
+    ],
+    process: [
+      'Event planning and timing review to map the story of the celebration.',
+      'Candid photo coverage of arrivals, rituals, speeches, performances, and guest moments.',
+      'Balanced documentary and portrait coverage to preserve both emotion and atmosphere.',
+      'Fast-turnaround gallery and highlight reels for easy sharing and remembrance.',
+    ],
+    testimonials: [
+      {
+        name: 'Kavya & Group',
+        event: 'Birthday Celebration',
+        quote: 'The energy of the evening was captured perfectly. We loved how the gallery told the story from entrance to final dance performance.',
+      },
+      {
+        name: 'Siddharth Rao',
+        event: 'Corporate Gathering',
+        quote: 'Professional, thoughtful and beautifully composed. The team documented our event with a sense of elegance that matched the brand exactly.',
+      },
+    ],
+  },
+];
+
+const testimonials = [
+  {
+    name: 'Ananya & Vikram',
+    event: 'Destination Wedding',
+    quote: 'Our wedding felt cinematic, and the final gallery captured every blessing, every smile, and every deeply emotional moment with grace.',
+  },
+  {
+    name: 'Priya Menon',
+    event: 'Portrait Experience',
+    quote: 'The session felt personal, calm, and beautifully styled. The photos were polished but still felt like us—warm, natural, and expressive.',
+  },
+  {
+    name: 'Rohan Sethi',
+    event: 'Corporate Event',
+    quote: 'The team documented our celebration in a way that felt premium and polished. Every moment was captured without making anyone feel posed or staged.',
   },
 ];
 
@@ -75,6 +189,7 @@ function App() {
   const [bookingForm, setBookingForm] = useState(initialBooking);
   const [contactStatus, setContactStatus] = useState('');
   const [bookingStatus, setBookingStatus] = useState('');
+  const [selectedService, setSelectedService] = useState(null);
 
   const handleContactChange = (event) => {
     const { name, value } = event.target;
@@ -132,6 +247,12 @@ function App() {
     }
   };
 
+  const handleBookThisSession = (serviceTitle) => {
+    setBookingForm((prev) => ({ ...prev, serviceType: serviceTitle }));
+    setSelectedService(null);
+    document.getElementById('book-now')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
   return (
     <div className="page-shell">
       <header className="topbar">
@@ -155,6 +276,79 @@ function App() {
       </header>
 
       <main>
+        {selectedService ? (
+          <section className="info-section service-detail-section">
+            <button className="back-btn" onClick={() => setSelectedService(null)}>
+              ← Back to services
+            </button>
+
+            <div
+              className="service-banner"
+              style={{ backgroundImage: `linear-gradient(90deg, rgba(24,18,15,0.72), rgba(24,18,15,0.28)), url(${selectedService.heroImage})` }}
+            >
+              <div className="service-banner-content">
+                <p className="eyebrow">Our Signature Service</p>
+                <h2>{selectedService.title}</h2>
+                <p className="service-summary">{selectedService.summary}</p>
+                <div className="service-cta-row">
+                  <button className="primary-btn" onClick={() => handleBookThisSession(selectedService.title)}>
+                    Book this session
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="pricing-block">
+              <div className="section-heading left-aligned">
+                <p className="eyebrow">Pricing</p>
+                <h2>Luxury experiences tailored to your story.</h2>
+              </div>
+              <div className="pricing-grid">
+                {selectedService.pricing.map((plan) => (
+                  <div className="price-card" key={plan.name}>
+                    <span className="price-label">{plan.name}</span>
+                    <strong>{plan.amount}</strong>
+                    <p>{plan.detail}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="detail-gallery">
+              {selectedService.images.map((image, index) => (
+                <img key={`${selectedService.slug}-${index}`} src={image} alt={selectedService.title} />
+              ))}
+            </div>
+
+            <div className="service-process">
+              <h3>How the session flows</h3>
+              <ol>
+                {selectedService.process.map((step) => (
+                  <li key={step}>{step}</li>
+                ))}
+              </ol>
+            </div>
+
+            {selectedService.testimonials && (
+              <div className="service-testimonials">
+                <h3>Client feedback</h3>
+                <div className="testimonials-grid">
+                  {selectedService.testimonials.map((item) => (
+                    <article className="testimonial-card" key={`${selectedService.slug}-${item.name}`}>
+                      <div className="stars">★★★★★</div>
+                      <p>“{item.quote}”</p>
+                      <div className="testimonial-author">
+                        <strong>{item.name}</strong>
+                        <span>{item.event}</span>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            )}
+          </section>
+        ) : (
+          <>
         <section className="hero">
           <div className="hero-copy">
             <p className="eyebrow">Modern storytelling photography</p>
@@ -220,9 +414,42 @@ function App() {
 
           <div className="services-grid">
             {services.map((service) => (
-              <article className="service-card" key={service.title}>
+              <article
+                className="service-card"
+                key={service.title}
+                onClick={() => setSelectedService(service)}
+                role="button"
+                tabIndex={0}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    setSelectedService(service);
+                  }
+                }}
+              >
                 <h3>{service.title}</h3>
                 <p>{service.text}</p>
+                <span className="read-more">View details →</span>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="info-section testimonials-section">
+          <div className="section-heading">
+            <p className="eyebrow">Testimonials</p>
+            <h2>Words from our clients.</h2>
+          </div>
+
+          <div className="testimonials-grid">
+            {testimonials.map((item) => (
+              <article className="testimonial-card" key={item.name}>
+                <div className="stars">★★★★★</div>
+                <p>“{item.quote}”</p>
+                <div className="testimonial-author">
+                  <strong>{item.name}</strong>
+                  <span>{item.event}</span>
+                </div>
               </article>
             ))}
           </div>
@@ -355,6 +582,8 @@ function App() {
             {bookingStatus && <p className="form-status">{bookingStatus}</p>}
           </form>
         </section>
+          </>
+        )}
       </main>
 
       <footer className="footer">
